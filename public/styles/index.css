@@ -1,0 +1,50 @@
+:root {
+    --comun: #BF6A4B;
+    --blanco: #F2F2F2;
+    --acento: #63BF7A;
+    --acento2:#53a367;
+    --fondo: #BF8A49;
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        display: none;
+    }
+    .contacto {
+        display: none;
+    }
+    .home{
+        flex-direction: column-reverse;
+        
+        align-items: center;
+        background-image: none;
+        background-color: var(--fondo);
+    }
+    .home img{
+        width: 400px;
+        height: 600px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .home p{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .frase div:nth-child(1){
+        text-align: center;
+        font-size: 35px;
+    }
+    .frase{
+        width: 500px;
+    }
+    .frase div:nth-child(1){
+        padding-bottom: 0px;
+    }
+    .frase div:nth-child(2){
+        font-size: 24px;
+        height: 80px;
+        width: 250px;
+        
+    }
+
+}
