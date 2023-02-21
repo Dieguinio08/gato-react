@@ -14,21 +14,24 @@
         display: none;
     }
     .home{
+        top: 60px;
         flex-direction: column-reverse;
-        
+        height: 100%;
         align-items: center;
         background-image: none;
         background-color: var(--fondo);
+        justify-content:flex-end;
     }
     .home img{
         width: 400px;
-        height: 600px;
+        height: 550px;
         margin-right: 0px;
         margin-top: 0px;
     }
-    .home p{
+    .container{
         padding-left: 5%;
         padding-right: 5%;
+        margin-top: 0px;
     }
     .frase div:nth-child(1){
         text-align: center;
@@ -41,10 +44,14 @@
         padding-bottom: 0px;
     }
     .frase div:nth-child(2){
-        font-size: 24px;
-        height: 80px;
-        width: 250px;
+        margin-top: 8px;
+        font-size: 20px;
+        height: 60px;
+        width: 150px;
         
+    }
+    .menu-icon{
+        display: flex;
     }
 
 }

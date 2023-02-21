@@ -7,8 +7,7 @@ module.exports={
     output: {
         path:path.resolve(__dirname, 'dist'),
         filename:'main.[contenthash].js',
-        assetModuleFilename: 'static/[hash][ext][query]',
-       
+        assetModuleFilename: 'static/[hash][ext][query]',    
     },
     mode: "development",
     resolve:{
@@ -18,11 +17,12 @@ module.exports={
             '@styles':path.resolve(__dirname,'public/styles'),
             '@images':path.resolve(__dirname,'public/images'),
             '@fonts':path.resolve(__dirname,'public/fonts'),
+            '@routes':path.resolve(__dirname,'src/routes'),
+            '@containers':path.resolve(__dirname,'src/containers'),
+            '@templates':path.resolve(__dirname,'src/templates'),
         }
 
     },
-    optimization: {minimize:true},
-    performance:{hints:false},
     module:{
         rules:[
             {

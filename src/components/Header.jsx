@@ -3,6 +3,7 @@ import Logo from './Logo';
 import Contacto from './Contacto';
 import Navbar from './Navbar';
 import '@styles/header.css';
+import menu from '@images/menu.svg';
 
 const Header = () => {
     return (
@@ -10,7 +11,8 @@ const Header = () => {
         <header className='header'>
             <Logo/>   
             <Navbar/>
-            <Contacto/>         
+            <Contacto/>
+            <img src={menu} alt="" className="menu-icon"/>         
         </header>
     )
 };

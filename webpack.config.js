@@ -17,6 +17,9 @@ module.exports={
             '@styles':path.resolve(__dirname,'public/styles'),
             '@images':path.resolve(__dirname,'public/images'),
             '@fonts':path.resolve(__dirname,'public/fonts'),
+            '@routes':path.resolve(__dirname,'src/routes'),
+            '@containers':path.resolve(__dirname,'src/containers'),
+            '@templates':path.resolve(__dirname,'src/templates'),
         }
 
     },

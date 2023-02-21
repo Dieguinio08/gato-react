@@ -14,3 +14,9 @@
     box-shadow: 5px 5px 5px 0 rgba(20, 20, 20, 0.3);
     z-index: 1;
 }
+
+.menu-icon{
+    display: none;
+    filter: invert(100%) sepia(37%) saturate(1424%) hue-rotate(245deg) brightness(130%) contrast(90%);
+    margin-right: 16px;
+}
