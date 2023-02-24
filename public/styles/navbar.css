@@ -18,8 +18,8 @@
     justify-content: center;
 }
 .navbar li{
-    display: block;
-    align-items: center;
+    display: flex;
+ 
     width: 150px;
     height: 100%;
     justify-content: center;
@@ -28,8 +28,10 @@
     border-bottom: 5px solid var(--comun);
     box-sizing: border-box;
 }
-.navbar li div{
-    align-items: center;
+.navbar li a{
+    color:var(--blanco);
+    text-decoration: none;
+   
     text-align: center;
     justify-content: center;
     margin-top: 20px;
