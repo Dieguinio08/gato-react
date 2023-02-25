@@ -1,12 +1,16 @@
-import React, {useState} from 'react';
+import React, {useContext} from 'react';
 import periodos from '@components/periodos';
+import MedContext from '@context/MedContext';
 import getToday from '@hooks/getToday';
 
 const Periodo = () => {
     const p= periodos;
-    const [hoy, setHoy]=useState(getToday());
+    const {setPeriodo}=useContext(MedContext);
+    const handleChange= (event)=>{
+        setPeriodo(event.target.value);
+    }
     return (  
-        <select className='periodo' defaultValue={hoy}>
+        <select  onChange={handleChange} className='periodo' defaultValue={getToday()}>
             {
                 p.map(
                     (element, index) =>(    

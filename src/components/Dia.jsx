@@ -3,11 +3,7 @@ import React from 'react';
 const Dia = ({dia}) => {
     return (
         <td>
-            <ul>
-                <li></li>
-            </ul>
-            <div>{dia}</div>
-            
+            {dia.nro}
         </td>
     )
 };

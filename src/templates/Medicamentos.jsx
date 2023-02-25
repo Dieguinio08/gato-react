@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '@styles/medicamentos.css';
-
-import getMes from '@hooks/getMes';
+import MedContext from '@context/MedContext';
 import Periodo from '@components/Periodo';
+import usePeriodo from '@hooks/usePeriodo';
+import Semana from '@components/Semana';
 
 const Medicamentos = () => {
+    const periodo=usePeriodo();
     return (
+        <MedContext.Provider value={periodo}>
         <div className='medicamentos'>
             <div className='container'>
             <Periodo/>
@@ -22,11 +25,17 @@ const Medicamentos = () => {
                     </tr>
                 </thead>
                 <tbody>
-                
+                    <Semana nro="0"/>
+                    <Semana nro="1"/>
+                    <Semana nro="2"/>
+                    <Semana nro="3"/>
+                    <Semana nro="4"/>
+                    <Semana nro="5"/>
                 </tbody>
             </table>
             </div>
         </div>
+        </MedContext.Provider>
     )
 };
 export default Medicamentos;
