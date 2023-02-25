@@ -1,11 +1,11 @@
 
-
-const getPeriodo=()=>{
+const getToday=()=>{
     const today = new Date();
     const year= today.getFullYear();
     let mes= today.getMonth()+1;
     let dia= today.getDay();
     mes=mes.toString();
+    dia=dia.toString();
     if (mes.length<2){
         mes="0"+mes;
     }
@@ -13,8 +13,8 @@ const getPeriodo=()=>{
         dia="0"+dia;
     }
     const periodo=year+"-"+mes;
-    //const periodo=dia+"/"+mes+"/"+year;
-    return {periodo};
+    const hoy=dia+"/"+mes+"/"+year;
+    return {periodo, hoy};
 
 }
-export default getPeriodo;
+export default getToday;

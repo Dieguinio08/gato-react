@@ -1,10 +1,9 @@
 import { useState } from "react";
-import getPeriodo from '@hooks/getPeriodo';
+import getToday from '@hooks/getToday';
 
 
 const usePeriodo= ()=>{
-    const [state, setState]=useState(getPeriodo());
-
+    const [state, setState]=useState(getToday().periodo);
     const setPeriodo= (periodo)=>{
         setState(periodo);
     }

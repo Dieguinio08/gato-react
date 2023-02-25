@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import periodos from '@components/periodos';
 import MedContext from '@context/MedContext';
-import getPeriodo from '@hooks/getPeriodo';
+import getToday from '@hooks/getToday';
 
 const Periodo = () => {
     const p= periodos;
@@ -10,7 +10,7 @@ const Periodo = () => {
         setPeriodo(event.target.value);
     }
     return (  
-        <select  onChange={handleChange} className='periodo' defaultValue={getPeriodo()}>
+        <select  onChange={handleChange} className='periodo' defaultValue={getToday().periodo}>
             {
                 p.map(
                     (element, index) =>(    

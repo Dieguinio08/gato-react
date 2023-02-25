@@ -7,11 +7,15 @@ import Semana from '@components/Semana';
 
 const Medicamentos = () => {
     const periodo=usePeriodo();
+    const m=parseInt(periodo.state.slice(-2))-1;
+    const meses=["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]; 
+    const nombre=meses[m];
     return (
         <MedContext.Provider value={periodo}>
         <div className='medicamentos'>
             <div className='container'>
             <Periodo/>
+            <h1>{nombre}</h1>
             <table>
                 <thead>
                     <tr>

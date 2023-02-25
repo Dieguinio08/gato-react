@@ -1,9 +1,8 @@
 import data from '@components/data';
 
 const getMes=(periodo)=>{
-    console.log(periodo);
-    const filtrado=data.filter((i)=>{return i.periodo==periodo.periodo});
-    console.log(filtrado);
+    const filtrado=data.filter((i)=>{return i.periodo==periodo});
+    
     //Agregando los días del mes anterior
     const min = filtrado[0];
     let iniciales=[];
@@ -23,8 +22,9 @@ const getMes=(periodo)=>{
             finales.push(data[i]);
         }
     }
+    const dias=iniciales.concat(filtrado).concat(finales);
     
-    return (iniciales.concat(filtrado).concat(finales));
+    return {dias};
 
 }
 
