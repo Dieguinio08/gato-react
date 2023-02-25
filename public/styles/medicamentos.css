@@ -21,6 +21,76 @@
 .medicamentos .container table thead td{
     font-size: 20px;
 }
+.medicamentos .container table{
+    border:solid 4px;
+}
+.dia ul{
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0px;
+}
+.dia li{
+    display: flex;
+    margin-top: 5px;
+}
+.dia p{
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: center;
+    font-size: 48px;
+}
+.lasix .cuarto1{
+    background: #D9FFDA;
+    border: solid 1px;
+}
+.lasix .cuarto2{
+    display:none;
+}
+.lasix .cuarto3{
+    display:none;
+}
+.lasix .cuarto4{
+    display:none;
+}
+
+.cardial .cuarto1{
+    background: #EB597A;
+}
+.cardial .cuarto2{
+    background:#EB597A;
+}
+.cardial .cuarto3{
+    display:none;
+}
+.cardial .cuarto4{
+    display:none;
+}
+
+.aspirineta .cuarto1{
+    background: #EA95DC;
+}
+.aspirineta .cuarto2{
+    background:#EA95DC;
+}
+.aspirineta .cuarto3{
+    background:#EA95DC;
+}
+.aspirineta .cuarto4{
+    display:none;
+}
+
+
+.dia img{
+    width: 20px;
+    height: 20px;
+    filter:drop-shadow(1px 1px 1px #888)
+}
+.dia{
+    vertical-align: top;
+    border:solid 1px; 
+    background-color: var(--blanco);
+    border-radius: 5px;
+}
 .medicamentos .container{
     justify-content: center;
     margin-top: 100px;

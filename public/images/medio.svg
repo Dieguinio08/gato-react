@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    id="svg2"
+    sodipodi:docname="part_and_fraction_1_4.svg"
+    inkscape:export-filename="/media/UDISK 2.0/Data/Document/svg/part_and_fraction_1_5.png"
+    viewBox="0 0 200.49 200.49"
+    sodipodi:version="0.32"
+    inkscape:export-xdpi="90"
+    version="1.1"
+    inkscape:export-ydpi="90"
+    inkscape:version="0.47 r22583"
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#ffffff"
+      inkscape:pageshadow="0"
+      inkscape:window-y="0"
+      pagecolor="#ffffff"
+      inkscape:window-height="698"
+      inkscape:window-maximized="0"
+      inkscape:zoom="1.4142136"
+      inkscape:window-x="296"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="svg2"
+      inkscape:cx="227.77638"
+      inkscape:cy="47.881684"
+      inkscape:window-width="954"
+      inkscape:pageopacity="1.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Calque 1"
+      inkscape:groupmode="layer"
+      transform="translate(-19.756 -19.756)"
+    >
+    <path
+        id="path1874"
+        sodipodi:rx="100"
+        sodipodi:ry="100"
+        style="stroke:#000000;stroke-width:0.487;fill:#EB597A"
+        sodipodi:type="arc"
+        d="m20.018 121.9c-1.052-55.214 42.859-100.83 98.082-101.88 55.218-1.0519 100.83 42.859 101.89 98.077 1.0519 55.218-42.859 100.83-98.077 101.89-55.222 1.04-100.84-42.86-101.89-98.08"
+        sodipodi:open="true"
+        sodipodi:cy="120"
+        sodipodi:cx="120"
+        sodipodi:end="9.4056738"
+        sodipodi:start="3.1225448"
+    />
+    <path
+        id="path1934"
+        sodipodi:rx="100"
+        sodipodi:ry="100"
+        style="stroke:#827d7d;stroke-width:0.487;fill:#000000"
+        sodipodi:type="arc"
+        d="m119.25 20.003c55.227-0.41319 100.33 44.022 100.75 99.249 0.41319 55.227-44.022 100.33-99.249 100.75-0.29982 0.002-0.59964 0.003-0.89947 0.003l0.15-100z"
+        sodipodi:cy="120"
+        sodipodi:cx="120"
+        sodipodi:end="6.2988961"
+        sodipodi:start="4.7049075"
+    />
+  </g>
+
+</svg>
