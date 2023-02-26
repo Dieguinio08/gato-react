@@ -1,14 +1,27 @@
 :root {
     --comun: #BF6A4B;
     --blanco: #F2F2F2;
+    --acento0:#97dba8;
     --acento: #63BF7A;
     --acento2:#53a367;
     --fondo: #BF8A49;
+    --redondeo:100px;
 }
 
+@media (min-width: 650px) {
+    .menu ul{
+        display: none;
+    }
+}    
 @media (max-width: 640px) {
     .navbar {
         display: none;
+    }
+    .medicamentos h1, .medicamentos table, .medicamentos select{
+        display: none;
+    }
+    .solo{
+        display:flex;
     }
     .contacto {
         display: none;

@@ -1,9 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '@styles/medicamentos.css';
 import MedContext from '@context/MedContext';
 import Periodo from '@components/Periodo';
 import usePeriodo from '@hooks/usePeriodo';
 import Semana from '@components/Semana';
+import DiaSolo from '@components/DiaSolo';
+import getToday from '@hooks/getToday';
+
 
 const Medicamentos = () => {
     const periodo=usePeriodo();
@@ -37,8 +40,12 @@ const Medicamentos = () => {
                     <Semana nro="5"/>
                 </tbody>
             </table>
+            <div className='soloHoy'>
+                <DiaSolo dia={getToday().hoy}/>
+            </div>
             </div>
         </div>
+        
         </MedContext.Provider>
     )
 };

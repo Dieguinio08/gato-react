@@ -11,34 +11,25 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: var(--blanco);
     height: 100%;
     width: 100%;
     font-family: 'Roboto';
     font-size: 16;
 }
-
+.medicamentos .container{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
 .medicamentos .container table thead td{
     font-size: 20px;
 }
 .medicamentos .container table{
     border:solid 4px;
 }
-.dia ul{
-    list-style: none;
-    font-size: 15px;
-    padding-left: 0px;
-}
-.dia li{
-    display: flex;
-    margin-top: 5px;
-}
-.dia p{
-    margin-top:10px;
-    margin-bottom:0px;
-    text-align: center;
-    font-size: 48px;
-}
+
 .lasix .cuarto1{
     background: #D9FFDA;
     border: solid 1px;
@@ -78,8 +69,6 @@
 .aspirineta .cuarto4{
     display:none;
 }
-
-
 .dia img{
     width: 20px;
     height: 20px;
@@ -88,17 +77,35 @@
 .dia{
     vertical-align: top;
     border:solid 1px; 
-    background-color: var(--blanco);
     border-radius: 5px;
 }
-.medicamentos .container{
-    justify-content: center;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
+
+.dia ul{
+    list-style: none;
+    font-size: 15px;
     padding-left: 0px;
 }
-
+.dia li{
+    display: flex;
+    margin-top: 5px;
+}
+.dia p{
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: center;
+    font-size: 48px;
+}
+.hoy {
+    background-color:var(--acento0);
+}
+.solo {
+    display: none;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border: solid 0px;
+}
 .medicamentos .container table{
     width: 80%;
 }
