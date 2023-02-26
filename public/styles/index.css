@@ -7,7 +7,10 @@
     --fondo: #BF8A49;
     --redondeo:100px;
 }
-
+.main{
+    display: flex;
+    flex-direction: column;
+}
 @media (min-width: 650px) {
     .menu ul{
         display: none;
