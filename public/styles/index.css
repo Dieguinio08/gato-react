@@ -20,9 +20,6 @@
     .footer{
         display:none;
     }
-    .header button{
-        display:flex;
-    }
     .navbar {
         display: none;
     }
@@ -32,9 +29,8 @@
     .solo{
         display:flex;
     }
-    .contacto {
+    .contacto p{
         display: none;
-
     }
     .home{
         top: 60px;
