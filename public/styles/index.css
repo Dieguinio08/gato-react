@@ -17,6 +17,9 @@
     }
 }    
 @media (max-width: 640px) {
+    .footer{
+        display:none;
+    }
     .navbar {
         display: none;
     }

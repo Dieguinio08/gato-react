@@ -9,7 +9,7 @@
     "dev": "webpack --config webpack.config.dev.js",
     "start": "webpack serve --open --config webpack.config.dev.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages d-build"
+    "deploy": "gh-pages d-build "
   },
   "keywords": [],
   "author": "Dieguinio <dieguinio08@gmial.com>",
