@@ -31,6 +31,7 @@
     }
     .contacto {
         display: none;
+
     }
     .home{
         top: 60px;
@@ -57,7 +58,7 @@
         font-size: 28px;
     }
     .frase{
-        width: 500px;
+        width: 400px;
     }
     .frase div:nth-child(1){
         padding-bottom: 0px;
