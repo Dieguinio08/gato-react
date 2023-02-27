@@ -20,6 +20,9 @@
     .footer{
         display:none;
     }
+    .header button{
+        display:flex;
+    }
     .navbar {
         display: none;
     }
