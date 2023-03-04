@@ -9,7 +9,7 @@ const Layout = ({children}) => {
     return (
         <div>
             <MenuContext.Provider value={oculto}>
-                <Header/>
+                <Header/> 
             </MenuContext.Provider>
             {children}
             <Footer/>
