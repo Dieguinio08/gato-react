@@ -70,5 +70,9 @@
         width: 350px;
         height: 420px;
     }
+    .footer img{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
 }
