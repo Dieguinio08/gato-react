@@ -74,5 +74,8 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .contacto p:nth-child(3){
+        display:flex;
+    }
 
 }
