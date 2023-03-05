@@ -18,7 +18,6 @@
 }
 
 .aboutme {
-    box-sizing: border-box;
     height: 100%;
     background-color: var(--blanco);  
     padding-left: 32px;
@@ -31,7 +30,7 @@
 }
 
 .aboutme p{
-    box-sizing: border-box;
+   
     font-family: 'Roboto';
     font-size:16px;
 }
