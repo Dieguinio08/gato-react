@@ -15,11 +15,18 @@ const Menu = () => {
         setOculto(!state);
     }
     return (
-        <ul onTouchEnd={ocultarMenu}>
-            <li ><Link to="/" >Home</Link></li>
-            <li ><Link to="/medicamentos" >Medicamentos</Link></li>
-            <li ><Link to="/aboutme" >Sobre mí</Link></li>
-        </ul>
+        <div onTouchEnd={ocultarMenu}>
+            <div className='submenu'>
+                <ul >
+                    <li><Link to="/" >Home</Link></li>
+                    <li><Link to="/medicamentos" >Medicamentos</Link></li>
+                    <li><Link to="/aboutme" >Sobre mí</Link></li>
+                </ul> 
+            </div>
+            <div className='fondo'>
+
+            </div>
+        </div>
     )
 };
 export default Menu;

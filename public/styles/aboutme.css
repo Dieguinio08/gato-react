@@ -19,10 +19,10 @@
 
 .aboutme {
     box-sizing: border-box;
-    padding-left: 32px;
-    padding-right: 32px;
     height: 100%;
     background-color: var(--blanco);  
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .aboutme h1{
