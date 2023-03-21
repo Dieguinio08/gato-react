@@ -20,6 +20,12 @@
     flex-direction: column;
     padding-left: 0px;
 }
+select{
+    width: 300px;
+    font-size: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
 #cabecera{
     display:flex;
     flex-direction: row;
