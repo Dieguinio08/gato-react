@@ -99,9 +99,15 @@
     text-align: center;
     font-size: 48px;
 }
+.dia li{
+    display: flex;
+    margin-left: 0px;
+    flex-direction: row;
+}
 .hoy {
     background-color:var(--acento0);
 }
+
 
 @media (max-width: 640px) {
     #mes, #semana{
@@ -113,7 +119,7 @@
     }
     .dia{
         display:flex;
-        flex-direction: horizontal;
+        flex-direction: row;
         border:solid 1px; 
         border-radius: 5px;
         width: 100%;
@@ -130,6 +136,14 @@
     .dia li{
         display: flex;
         margin-left: 20px;
+        flex-direction: column;
     }
+    .medicamentos{
+        height: 100%;
+        width: 100%;
+        font-family: 'Roboto';
+        font-size: 10;
+    }
+    
 
 }

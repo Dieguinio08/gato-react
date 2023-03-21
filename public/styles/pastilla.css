@@ -1,7 +1,7 @@
 
 .pastilla {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 10px 10px;
     margin-left: 20px;
 }
 
