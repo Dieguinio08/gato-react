@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     font-family: 'Roboto';
-    font-size: 16;
+    font-size: 16px;
 }
 .medicamentos .container{
     justify-content: center;
@@ -129,7 +129,7 @@
     }
     .dia ul{
         list-style: none;
-        font-size: 15px;
+        font-size: 10px;
         display: flex;
         flex-direction: horizontal;
     }
@@ -137,13 +137,6 @@
         display: flex;
         margin-left: 20px;
         flex-direction: column;
-    }
-    .medicamentos{
-        height: 100%;
-        width: 100%;
-        font-family: 'Roboto';
-        font-size: 10;
-    }
-    
+    }   
 
 }
