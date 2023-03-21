@@ -17,32 +17,27 @@ const Medicamentos = () => {
         <MedContext.Provider value={periodo}>
         <div className='medicamentos'>
             <div className='container'>
-            <Periodo/>
-            <h1>{nombre}</h1>
-            <table>
-                <thead>
-                    <tr>
-                    <th>Domingo</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miércoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                    <th>Sábado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <Semana nro="0"/>
-                    <Semana nro="1"/>
-                    <Semana nro="2"/>
-                    <Semana nro="3"/>
-                    <Semana nro="4"/>
-                    <Semana nro="5"/>
-                </tbody>
-            </table>
-            <div className='soloHoy'>
-                <DiaSolo dia={getToday().hoy}/>
-            </div>
+                <Periodo/>
+                <h1>{nombre}</h1>
+                <div id="mes">
+                    <div id="cabecera">
+                        <div>Domingo</div>
+                        <div>Lunes</div>
+                        <div>Martes</div>
+                        <div>Miércoles</div>
+                        <div>Jueves</div>
+                        <div>Viernes</div>
+                        <div>Sábado</div>
+                    </div>
+                    <div>
+                        <Semana nro="0"/>
+                        <Semana nro="1"/>
+                        <Semana nro="2"/>
+                        <Semana nro="3"/>
+                        <Semana nro="4"/>
+                        <Semana nro="5"/>
+                    </div>
+                </div>
             </div>
         </div>
         

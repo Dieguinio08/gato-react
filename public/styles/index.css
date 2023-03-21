@@ -17,12 +17,6 @@
     .navbar {
         display: none;
     }
-    .medicamentos h1, .medicamentos table, .medicamentos select{
-        display: none;
-    }
-    .solo{
-        display:flex;
-    }
     .contacto p{
         display: none;
     }
@@ -60,8 +54,7 @@
         margin-top: 8px;
         font-size: 20px;
         height: 60px;
-        width: 150px;
-        
+        width: 150px;   
     }
     .menu-icon{
         display: flex;

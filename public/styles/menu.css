@@ -28,22 +28,27 @@
     background-color: var(--blanco);
     margin-top: 0;
     padding-left: 0;
-    
+    display: flex;
+    flex-direction: column;
 }
 .submenu li {
     z-index: 2;
     justify-content: center;
     margin-left:8px;
     margin-right:8px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    
     background-color: var(--blanco);
+    display: flex;
 }
 .submenu li a{
     z-index: 2;
     color:black;
     text-decoration: none;
     text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
     justify-content: center;
     font-family: 'Roboto';
 	-webkit-text-size-adjust: 100%;

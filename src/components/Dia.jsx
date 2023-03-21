@@ -6,7 +6,7 @@ const Dia = ({dia}) => {
     const fecha=getToday().hoy.fecha;
     const d=(dia.fecha==fecha);
     return (
-        <td  className={d ?"dia hoy":"dia"} >
+        <div  className={d ?"dia hoy":"dia"} >
             <p>{dia.nro}</p>
             <ul>
                 {dia.remedios[0] ? <li>Prednisol 15ml <img src={gota} /><img src={gota} /><img src={gota} /></li>:""}
@@ -15,7 +15,7 @@ const Dia = ({dia}) => {
                 {dia.remedios[2] ?<li>Aspirineta <div className='aspirineta'><Pastilla/></div></li>:""}
                 {dia.remedios[3] ?<li>Cardial B 2,5 mg <div className='cardial'><Pastilla/></div></li>:""}
             </ul> 
-        </td>
+        </div>
     )
 };
 export default Dia;
