@@ -1,10 +1,10 @@
 import React from 'react';
-import '@styles/contacto.css';
 import ReactWhatsapp from 'react-whatsapp';
 import whatsapp from '@images/whatsapp.svg';
+import styles from '@styles/Contacto.module.css';
 const Contacto = () => {
     return (
-        <div className='contacto'>
+        <div className={styles.contacto}>
             <ReactWhatsapp element="div" number="542914146390" message="Hola, te escribo por el gato!">  
                 <img src={whatsapp} alt="" />
             </ReactWhatsapp> 

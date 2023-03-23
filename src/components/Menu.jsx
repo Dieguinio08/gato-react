@@ -1,6 +1,6 @@
 import React, {useState, useContext} from 'react';
 import { Link } from "react-router-dom";
-import '@styles/menu.css';
+import styles from '@styles/Menu.module.css';
 import MenuContext from '@context/MenuContext';
 const Menu = () => {
     const sleep = async (milliseconds) => {
@@ -23,7 +23,7 @@ const Menu = () => {
                     <li><Link to="/aboutme" >Sobre mí</Link></li>
                 </ul> 
             </div>
-            <div className='fondo'>
+            <div className={styles.fondo}>
 
             </div>
         </div>

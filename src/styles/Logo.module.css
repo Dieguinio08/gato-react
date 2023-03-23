@@ -1,0 +1,16 @@
+
+.Logo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.Logo li{
+    list-style-type: none; /* Remove bullets */
+	font-family: 'Antonio';
+	-webkit-text-size-adjust: 100%;
+    font-size: 32px;
+    margin-left: 16px;
+}
+
