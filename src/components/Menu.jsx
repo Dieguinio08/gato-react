@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
-import styles from '@styles/Menu.module.css';
 import MenuContext from '@context/MenuContext';
+import styles from '@styles/Menu.module.css';
+
 const Menu = () => {
     const sleep = async (milliseconds) => {
         await new Promise((resolve) => {
