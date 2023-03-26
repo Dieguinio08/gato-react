@@ -1,3 +1,12 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/antonio.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/antonio.woff') format('woff'), /* Modern Browsers */
+        
+}
 
 .Logo{
     display: flex;
@@ -10,7 +19,13 @@
     list-style-type: none; /* Remove bullets */
 	font-family: 'Antonio';
 	-webkit-text-size-adjust: 100%;
+    margin-top: 24px;
     font-size: 32px;
     margin-left: 16px;
 }
-
+.Logo li:nth-child(1){
+    margin-bottom: 16px;
+}
+.Logo li:nth-child(2){
+    padding-top: 4px;
+ }

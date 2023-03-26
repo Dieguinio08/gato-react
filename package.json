@@ -8,14 +8,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "eslint src/ --fix",
+    "prettier:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "keywords": [],
   "author": "Dieguinio <dieguinio08@gmial.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.36.0",
-    "eslint-config-next": "^13.2.4"   
+    "eslint-config-next": "^13.2.4"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.8.0",
@@ -24,8 +26,6 @@
     "next": "^13.2.4",
     "prettier": "^2.8.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.1",
     "react-whatsapp": "^0.3.0"
   }
 }

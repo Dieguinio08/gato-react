@@ -1,3 +1,12 @@
+:root {
+  --comun: #BF6A4B;
+  --blanco: #F2F2F2;
+  --acento0:#97dba8;
+  --acento: #63BF7A;
+  --acento2:#53a367;
+  --fondo: #BF8A49;
+  --redondeo:100px;
+}
 body {
     margin: 0;
     font-family: "Quicksand", sans-serif;

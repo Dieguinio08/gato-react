@@ -1,14 +1,14 @@
-import { useState } from "react";
+import { useState } from 'react';
 
-const useOculto= ()=>{
-    const [state, setState]=useState(false);
-    const setOculto= (oculto)=>{
+const useOculto = () => {
+    const [state, setState] = useState(false);
+    const setOculto = (oculto) => {
         setState(oculto);
-    }
+    };
 
-    return{
+    return {
         state,
-        setOculto
-    }
-}
+        setOculto,
+    };
+};
 export default useOculto;

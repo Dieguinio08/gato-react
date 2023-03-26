@@ -1,0 +1,24 @@
+.main{
+    position:absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cabecera{
+    width: 100%;
+    display:flex;
+}
+
+.cuerpo{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
+.pie{
+    width: 100%;
+    display:flex;
+}

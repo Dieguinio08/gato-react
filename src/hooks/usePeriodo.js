@@ -1,16 +1,15 @@
-import { useState } from "react";
+import { useState } from 'react';
 import getToday from '@hooks/getToday';
 
-
-const usePeriodo= ()=>{
-    const [state, setState]=useState(getToday().periodo);
-    const setPeriodo= (periodo)=>{
+const usePeriodo = () => {
+    const [state, setState] = useState(getToday().periodo);
+    const setPeriodo = (periodo) => {
         setState(periodo);
-    }
+    };
 
-    return{
+    return {
         state,
-        setPeriodo
-    }
-}
+        setPeriodo,
+    };
+};
 export default usePeriodo;

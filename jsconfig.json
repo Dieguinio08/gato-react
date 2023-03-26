@@ -9,6 +9,8 @@
                 "@images/*": ["assets/images/*"],
                 "@context/*": ["context/*"],
                 "@fonts/*": ["assets/fonts/*"],
+                "@hooks/*": ["hooks/*"],
+                "@templates/*": ["templates/*"],
             }
         }
 }

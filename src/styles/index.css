@@ -1,25 +1,4 @@
-:root {
-    --comun: #BF6A4B;
-    --blanco: #F2F2F2;
-    --acento0:#97dba8;
-    --acento: #63BF7A;
-    --acento2:#53a367;
-    --fondo: #BF8A49;
-    --redondeo:100px;
-}
-
-@media (min-width: 650px) {
-    .menu{
-        display: none;
-    }
-}    
 @media (max-width: 640px) {
-    .navbar {
-        display: none;
-    }
-    .contacto p{
-        display: none;
-    }
     .home{
         top: 60px;
         flex-direction: column-reverse;
@@ -56,9 +35,7 @@
         height: 60px;
         width: 150px;   
     }
-    .menuicon{
-        display: flex;
-    }
+    
     .aboutme img {
         width: 350px;
         height: 420px;
@@ -67,8 +44,6 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-    .contacto p:nth-child(3){
-        display:flex;
-    }
+    
 
 }
