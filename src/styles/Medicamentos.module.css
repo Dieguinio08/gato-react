@@ -33,7 +33,43 @@
     display:flex;
     flex-direction: row;
 }
+.pastilla {
+    display:grid;
+    grid-template-columns: 10px 10px;
+    margin-left: 20px;
+}
 
+.cuarto1{
+    width: 10px;
+    height: 10px;
+    border-radius: var(--redondeo) 0 0 0;
+    -moz-border-radius: var(--redondeo) 0 0 0;
+    -webkit-border-radius: var(--redondeo) 0 0 0;
+}
+
+.cuarto2{
+    width: 10px;
+    height: 10px;
+    border-radius: 0 var(--redondeo) 0 0;
+    -moz-border-radius: 0 var(--redondeo) 0 0;
+    -webkit-border-radius: 0 var(--redondeo) 0 0;
+}
+
+.cuarto3{
+    width: 10px;
+    height: 10px;
+    border-radius: 0 0 0 var(--redondeo);
+    -moz-border-radius: 0 0 0 var(--redondeo);
+    -webkit-border-radius: 0 0 0 var(--redondeo);
+}
+
+.cuarto4{
+    width: 10px;
+    height: 10px;
+    border-radius: 0 0 var(--redondeo) 0;
+    -moz-border-radius: 0 0 var(--redondeo) 0;
+    -webkit-border-radius: 0 0 var(--redondeo) 0;
+}
 .lasix .cuarto1{
     background: #D9FFDA;
     border: solid 1px;
@@ -120,7 +156,7 @@
         flex-direction: row;
         border:solid 1px; 
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         margin: 1px;
         padding-left: 8px;
         padding-right: 8px;

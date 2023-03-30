@@ -5,7 +5,7 @@
   --acento: #63BF7A;
   --acento2:#53a367;
   --fondo: #BF8A49;
-  --redondeo:100px;
+  --redondeo:10px;
 }
 body {
     margin: 0;

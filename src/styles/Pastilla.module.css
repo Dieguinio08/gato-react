@@ -5,7 +5,7 @@
     margin-left: 20px;
 }
 
-.pastilla .cuarto1{
+.cuarto1{
     width: 10px;
     height: 10px;
     border-radius: var(--redondeo) 0 0 0;
@@ -13,7 +13,7 @@
     -webkit-border-radius: var(--redondeo) 0 0 0;
 }
 
-.pastilla .cuarto2{
+.cuarto2{
     width: 10px;
     height: 10px;
     border-radius: 0 var(--redondeo) 0 0;
@@ -21,7 +21,7 @@
     -webkit-border-radius: 0 var(--redondeo) 0 0;
 }
 
-.pastilla .cuarto3{
+.cuarto3{
     width: 10px;
     height: 10px;
     border-radius: 0 0 0 var(--redondeo);
@@ -29,7 +29,7 @@
     -webkit-border-radius: 0 0 0 var(--redondeo);
 }
 
-.pastilla .cuarto4{
+.cuarto4{
     width: 10px;
     height: 10px;
     border-radius: 0 0 var(--redondeo) 0;

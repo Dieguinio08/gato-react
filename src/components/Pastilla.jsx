@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '@styles/Pastilla.module.css';
+import styles from '@styles/Medicamentos.module.css';
 
 const Pastilla = () => {
     return (
