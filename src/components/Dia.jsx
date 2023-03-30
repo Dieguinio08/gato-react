@@ -16,8 +16,7 @@ const Dia = ({ dia }) => {
                     <li>
                         Prednisol 15ml{' '}
                         <div>
-                            <Image src={gota} alt="gota"/>
-                            
+                            <Image src={gota} alt="gota" />
                         </div>
                     </li>
                 ) : (
